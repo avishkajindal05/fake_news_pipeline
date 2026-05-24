@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+*.env
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Model artifacts
+train/model.pkl
+train/vectorizer.pkl
+evaluate/eval_report.json
+
+# Data (too large for git)
+data/train.csv
+data/test.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
