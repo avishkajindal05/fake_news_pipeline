@@ -102,10 +102,15 @@ Launches a FastAPI server with a `/predict` endpoint. Send a POST request with `
 ## Evaluation Metrics
 
 Test Accuracy : 0.963
+
 Test F1       : 0.966
+
 Test Precision: 0.96
+
 Test Recall   : 0.96
-ROC-AUC       : (check eval_report.json for this)
+
+ROC-AUC       : 0.993
+
 Confusion Matrix: TN=442, FP=25, FN=12, TP=521
 
 ---
